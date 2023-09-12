@@ -1,0 +1,23 @@
+.example:hover {
+    background: rgb(15, 159, 255);
+    width: 61px;
+    height: 61px;
+}
+.keluar:hover {
+    content: url(./ini_hotel_keluar.png);
+}
+.keluar:not(:hover) {
+    content: url(./ini_hotel.png);
+}
+.offcanvas-backdrop {
+    display: none !important;
+}
+.modal-body{
+    max-height: calc(100vh - 200px);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}.containerrrr {
+    display: flex;
+    justify-content: space-around
+  }
+  
